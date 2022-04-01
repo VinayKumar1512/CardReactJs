@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: linear-gradient(to right, #fc5d73, #ff993f);
+  width: 258px;
+  height: 140px;
+  padding: 15px;
+  border-top-left-radius: 7.5px;
+  border-top-right-radius: 7.5px;
+  font-family: sans-serif;
+}
+span {
+  float: right;
+  color: white;
+}
+.name {
+  color: white;
+  padding: 5px;
+}
+p {
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.progress-bar {
+  width: 258px;
+  font-family: sans-serif;
+  height: 110px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.list {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 129px;
+}
+.bars {
+  display: flex;
+}
+
+.bar {
+  width: 35px;
+  height: 7px;
+  background-color: rgb(211, 216, 218);
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.half-yellow {
+  width: 20px;
+  height: 7px;
+  float: left;
+}
+.orange {
+  background-color: #fc5d73;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+.finish {
+  background: linear-gradient(to right, #fc5d73, #ff993f);
+  width: 258px;
+  height: 70px;
+  padding: 15px;
+  font-family: sans-serif;
+  border-bottom-left-radius: 7.5px;
+  border-bottom-right-radius: 7.5px;
+}
+
+.btn {
+  float: right;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+  border: white;
+  font-weight: bold;
+}
